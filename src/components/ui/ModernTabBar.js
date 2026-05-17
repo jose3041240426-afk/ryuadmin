@@ -129,7 +129,7 @@ const TabItem = ({ label, isFocused, onPress, isDarkMode, routeName }) => {
       case 'Sushi':
         return <SvgXml xml={sushiIcon} width={size} height={size} />;
       case 'Alitas':
-        return <Image source={require('../../assets/images/Alitasicon.png')} style={{ width: size, height: size, tintColor: color }} />;
+        return <Image source={require('../../assets/LOGO.png')} style={{ width: size, height: size, tintColor: color }} />;
       case 'Bebidas':
         return <SvgXml xml={bebidasIcon} width={size} height={size} />;
       case 'Extras':
