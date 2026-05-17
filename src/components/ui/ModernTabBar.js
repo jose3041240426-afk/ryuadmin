@@ -128,8 +128,10 @@ const TabItem = ({ label, isFocused, onPress, isDarkMode, routeName }) => {
     switch (routeName) {
       case 'Sushi':
         return <SvgXml xml={sushiIcon} width={size} height={size} />;
-      case 'Alitas':
-        return <Image source={require('../../assets/LOGO.png')} style={{ width: size, height: size, tintColor: color }} />;
+      case 'Alitas': {
+        const alitasIcon = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='${color}' d='M8.79 9.24V5.5a2.5 2.5 0 0 1 5 0v3.74c1.21-.81 2-2.18 2-3.74c0-2.49-2.01-4.5-4.5-4.5s-4.5 2.01-4.5 4.5c0 1.56.79 2.93 2 3.74M14.29 11H9.72c-1.68 0-3.19.84-3.19 2.5c0 .85.34 1.61.91 2.16L6 22h2.5l.71-3h5.58l.71 3H18l-1.44-6.34c.57-.55.91-1.31.91-2.16c0-1.66-1.51-2.5-3.18-2.5'/></svg>`;
+        return <SvgXml xml={alitasIcon} width={size} height={size} />;
+      }
       case 'Bebidas':
         return <SvgXml xml={bebidasIcon} width={size} height={size} />;
       case 'Extras':
