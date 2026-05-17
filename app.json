@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "AdminApp",
-    "slug": "AdminApp",
+    "name": "Ryu Admin",
+    "slug": "ryu-admin",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/LOGO.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/LOGO.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,28 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/LOGO.jpg",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "useNextNotificationsApi": true,
+      "package": "com.manuelgs.ryuadmin"
     },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#ff0000"
+        }
+      ]
+    ],
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/LOGO.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8ca2a53-c7fd-4dbd-8862-b87339dd8da9"
+      }
     }
   }
 }
