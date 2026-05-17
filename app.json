@@ -4,11 +4,11 @@
     "slug": "ryu-admin",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/LOGO.jpg",
+    "icon": "./assets/LOGO.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/LOGO.jpg",
+      "image": "./assets/LOGO.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/LOGO.jpg",
+        "foregroundImage": "./assets/LOGO.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
@@ -33,7 +33,7 @@
       ]
     ],
     "web": {
-      "favicon": "./assets/LOGO.jpg"
+      "favicon": "./assets/LOGO.png"
     },
     "extra": {
       "eas": {
